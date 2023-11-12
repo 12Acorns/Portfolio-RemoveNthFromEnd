@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34221.43
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "removeNthFromEndApp", "removeNthFromEndApp\removeNthFromEndApp.csproj", "{CC5C6E97-A274-4DD0-81CD-AB3BC3F020C4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemoveNthFromEndTests", "RemoveNthFromEndTests\RemoveNthFromEndTests.csproj", "{A5A95504-346E-48BD-9085-61D901EB2CDF}"
+	ProjectSection(ProjectDependencies) = postProject
+		{CC5C6E97-A274-4DD0-81CD-AB3BC3F020C4} = {CC5C6E97-A274-4DD0-81CD-AB3BC3F020C4}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CC5C6E97-A274-4DD0-81CD-AB3BC3F020C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC5C6E97-A274-4DD0-81CD-AB3BC3F020C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC5C6E97-A274-4DD0-81CD-AB3BC3F020C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC5C6E97-A274-4DD0-81CD-AB3BC3F020C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5A95504-346E-48BD-9085-61D901EB2CDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5A95504-346E-48BD-9085-61D901EB2CDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5A95504-346E-48BD-9085-61D901EB2CDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5A95504-346E-48BD-9085-61D901EB2CDF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {58B86AC3-AB00-4EFF-BD84-C4CE7B647590}
+	EndGlobalSection
+EndGlobal
